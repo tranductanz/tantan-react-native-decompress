@@ -77,7 +77,8 @@ dependencies {
 }
 
 react {
-  jsRootDir = file("../src/")
+  jsRootDir = file("src") // thư mục chứa *.ts Turbo interface
   libraryName = "ReactNativeDecompress"
   codegenJavaPackageName = "com.tantan.reactnativedecompress"
 }
+

@@ -151,7 +151,7 @@
     "type": "modules",
     "jsSrcsDir": "./src",
     "android": {
-      "javaPackageName": "com.reactnativebrotlicompress"
+      "javaPackageName": "com.tantan.reactnativedecompress"
     },
     "ios": {
       "modulesProvider": {

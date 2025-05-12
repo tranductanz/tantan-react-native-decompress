@@ -120,7 +120,7 @@
     "type": "modules",
     "jsSrcsDir": "./src",
     "android": {
-      "javaPackageName": "com.reactnativebrotlicompress"
+      "javaPackageName": "com.tantan.reactnativedecompress"
     },
     "ios": {
       "modulesProvider": {
@@ -128,5 +128,5 @@
       }
     }
   },
-  "yalcSig": "c24de7440d72bb7e5f5ca7fc8c5d277b"
+  "yalcSig": "fa3c3a939e2a0834a04e536c130a821a"
 }
