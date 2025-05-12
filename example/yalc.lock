@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@tantan/react-native-decompress": {
+      "version": "0.1.0",
+      "signature": "c24de7440d72bb7e5f5ca7fc8c5d277b",
+      "file": true
+    }
+  }
+}
