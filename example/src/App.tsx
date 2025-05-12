@@ -1,10 +1,11 @@
 import { Text, View, StyleSheet } from 'react-native';
 import { helloFunction, decompress } from '@tantan/react-native-decompress';
 export default function App() {
-  console.log('hehedwiqdkwqiodjqwidowqdjoiqw', typeof decompress);
+  console.log('dwqdwqdwqdwq', helloFunction('hahahahaha'));
+  console.log('dwqdwqdwqdwq___', typeof decompress);
   return (
     <View style={styles.container}>
-      <Text>Result</Text>
+      <Text>Resu123123213lt</Text>
     </View>
   );
 }

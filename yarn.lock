@@ -3226,12 +3226,23 @@ __metadata:
     "@react-native/babel-preset": "npm:0.79.2"
     "@react-native/metro-config": "npm:0.79.2"
     "@react-native/typescript-config": "npm:0.79.2"
+    "@tantan/react-native-decompress": "file:.yalc/@tantan/react-native-decompress"
     "@types/react": "npm:^19.0.0"
     react: "npm:19.0.0"
     react-native: "npm:0.79.2"
     react-native-builder-bob: "npm:^0.40.10"
   languageName: unknown
   linkType: soft
+
+"@tantan/react-native-decompress@file:.yalc/@tantan/react-native-decompress::locator=%40tantan%2Freact-native-decompress-example%40workspace%3Aexample":
+  version: 0.1.0
+  resolution: "@tantan/react-native-decompress@file:.yalc/@tantan/react-native-decompress#.yalc/@tantan/react-native-decompress::hash=36e04c&locator=%40tantan%2Freact-native-decompress-example%40workspace%3Aexample"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/81448e4513b835e3383d3c078707e9fcb534866153baa72001401bc30ede449783026f18702593a2e0dfe41040d93a2dc03cb19682daa468fbd330e99cec667e
+  languageName: node
+  linkType: hard
 
 "@tantan/react-native-decompress@workspace:.":
   version: 0.0.0-use.local

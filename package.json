@@ -26,10 +26,9 @@
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
-    "prepare": "bob build",
+    "prepare": "yarn build",
     "release": "release-it",
-    "postinstall": "node ./scripts/run-react-native-codegen.js",
-    "build": "tsc"
+    "build": "tsc --declaration --emitDeclarationOnly --outDir lib"
   },
   "keywords": [
     "react-native",
@@ -152,7 +151,7 @@
     "type": "modules",
     "jsSrcsDir": "./src",
     "android": {
-      "javaPackageName": "com.reactnativebrotlicompress"
+      "javaPackageName": "com.tantan.reactnativedecompress"
     },
     "ios": {
       "modulesProvider": {

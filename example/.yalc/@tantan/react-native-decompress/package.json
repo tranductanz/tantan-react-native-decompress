@@ -1,0 +1,132 @@
+{
+  "name": "@tantan/react-native-decompress",
+  "version": "0.1.0",
+  "description": "This is a library decompress using for Module Federation",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "ios",
+    "android",
+    "*.podspec",
+    "react-native.config.js"
+  ],
+  "scripts": {
+    "example": "yarn workspace @tantan/react-native-decompress-example",
+    "test": "jest",
+    "typecheck": "tsc",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
+    "release": "release-it",
+    "build": "tsc --declaration --emitDeclarationOnly --outDir lib"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranductanz/tantan-react-native-decompress.git.git"
+  },
+  "author": "Trần Đức Tân <tantran1610@gmail.com> (https://github.com/tranductanz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tranductanz/tantan-react-native-decompress.git/issues"
+  },
+  "homepage": "https://github.com/tranductanz/tantan-react-native-decompress.git#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "workspaces": [
+    "example"
+  ],
+  "jest": {
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/node_modules",
+      "<rootDir>/lib/"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": {
+          "name": "angular"
+        }
+      }
+    }
+  },
+  "prettier": {
+    "quoteProps": "consistent",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": false
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      [
+        "module",
+        {
+          "esm": true
+        }
+      ],
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  },
+  "create-react-native-library": {
+    "languages": "kotlin-objc",
+    "type": "turbo-module",
+    "version": "0.50.2"
+  },
+  "codegenConfig": {
+    "name": "NativeBrotliCompress",
+    "type": "modules",
+    "jsSrcsDir": "./src",
+    "android": {
+      "javaPackageName": "com.tantan.reactnativedecompress"
+    },
+    "ios": {
+      "modulesProvider": {
+        "NativeBrotliCompress": "RCTNativeBrotliCompress"
+      }
+    }
+  },
+  "yalcSig": "fa3c3a939e2a0834a04e536c130a821a"
+}

@@ -1737,7 +1737,7 @@ DEPENDENCIES:
   - ReactAppDependencyProvider (from `build/generated/ios`)
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - ReactNativeDecompress (from `../../ReactNativeDecompress.podspec`)
+  - "ReactNativeDecompress (from `../node_modules/@tantan/react-native-decompress`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1886,7 +1886,7 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
   ReactNativeDecompress:
-    :path: "../../ReactNativeDecompress.podspec"
+    :path: "../node_modules/@tantan/react-native-decompress"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -1965,6 +1965,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: c758bfb934100bb4bf9cbaccb52557cee35e8bdf
 
-PODFILE CHECKSUM: a66885e7f00dc1cf3832e68617bbd76a64e9c7b0
+PODFILE CHECKSUM: 90d578ac1de6915dc21aad79cac8200afbf7204a
 
 COCOAPODS: 1.16.2
