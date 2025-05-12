@@ -1,6 +1,6 @@
 {
   "name": "@tantan/react-native-decompress",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a library decompress using for Module Federation",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
