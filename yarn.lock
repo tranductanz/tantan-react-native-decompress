@@ -3236,11 +3236,11 @@ __metadata:
 
 "@tantan/react-native-decompress@file:.yalc/@tantan/react-native-decompress::locator=%40tantan%2Freact-native-decompress-example%40workspace%3Aexample":
   version: 0.1.0
-  resolution: "@tantan/react-native-decompress@file:.yalc/@tantan/react-native-decompress#.yalc/@tantan/react-native-decompress::hash=36e04c&locator=%40tantan%2Freact-native-decompress-example%40workspace%3Aexample"
+  resolution: "@tantan/react-native-decompress@file:.yalc/@tantan/react-native-decompress#.yalc/@tantan/react-native-decompress::hash=886326&locator=%40tantan%2Freact-native-decompress-example%40workspace%3Aexample"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 10c0/81448e4513b835e3383d3c078707e9fcb534866153baa72001401bc30ede449783026f18702593a2e0dfe41040d93a2dc03cb19682daa468fbd330e99cec667e
+  checksum: 10c0/e3171aa49738210c8793b6db9d5ae84374885fae9e1b77981641896e11d3965385d30c18fee4b6094318b426c9fd7050c3b3a597a18547868c4770552e289753
   languageName: node
   linkType: hard
 
@@ -3271,6 +3271,7 @@ __metadata:
     prettier: "npm:^3.0.3"
     react: "npm:19.0.0"
     react-native: "npm:0.79.2"
+    react-native-blob-util: "npm:^0.21.2"
     react-native-builder-bob: "npm:^0.40.10"
     react-native-codegen: "npm:^0.70.7"
     release-it: "npm:^17.10.0"
@@ -4252,6 +4253,13 @@ __metadata:
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
   checksum: 10c0/9308baf0a7e4838a82bbfd11e01b1cb0f0cf2893bc1676c27c2a8c0e70cbae1c59120c3268517a8ae7fb6376b4639ef81ca22582611dbee4ed28df945134aaee
+  languageName: node
+  linkType: hard
+
+"base-64@npm:0.1.0":
+  version: 0.1.0
+  resolution: "base-64@npm:0.1.0"
+  checksum: 10c0/fe0dcf076e823f04db7ee9b02495be08a91c445fbc6db03cb9913be9680e2fcc0af8b74459041fe08ad16800b1f65a549501d8f08696a8a6d32880789b7de69d
   languageName: node
   linkType: hard
 
@@ -6920,7 +6928,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2":
+"glob@npm:^10.2.2, glob@npm:^10.3.10":
   version: 10.4.5
   resolution: "glob@npm:10.4.5"
   dependencies:
@@ -11061,6 +11069,19 @@ __metadata:
   version: 18.3.1
   resolution: "react-is@npm:18.3.1"
   checksum: 10c0/f2f1e60010c683479e74c63f96b09fb41603527cd131a9959e2aee1e5a8b0caf270b365e5ca77d4a6b18aae659b60a86150bb3979073528877029b35aecd2072
+  languageName: node
+  linkType: hard
+
+"react-native-blob-util@npm:^0.21.2":
+  version: 0.21.2
+  resolution: "react-native-blob-util@npm:0.21.2"
+  dependencies:
+    base-64: "npm:0.1.0"
+    glob: "npm:^10.3.10"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/7d7ca9abd02d2af4b9606813258047ad7748984d1ca5970ee2bc77ca3272690ca102d0cbccbc5e2d8193b3da73b453a03f918ff0f5269e1fe8b759df3dfd6ed0
   languageName: node
   linkType: hard
 
