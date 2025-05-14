@@ -1,6 +1,6 @@
 {
   "name": "@tantan/react-native-decompress",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This is a library decompress using for Module Federation",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -47,6 +47,9 @@
   "homepage": "https://github.com/tranductanz/tantan-react-native-decompress.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "react-native-blob-util": "^0.21.2"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
