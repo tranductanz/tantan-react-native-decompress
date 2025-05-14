@@ -1,6 +1,6 @@
 {
   "name": "@tantan/react-native-decompress",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "This is a library decompress using for Module Federation",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -28,7 +28,7 @@
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "yarn build",
     "release": "release-it",
-    "build": "tsc --declaration --emitDeclarationOnly --outDir lib"
+    "build": "tsc --outDir lib"
   },
   "keywords": [
     "react-native",
